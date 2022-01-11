@@ -1,0 +1,16 @@
+#root {
+  width: 100%;
+}
+
+.quote-title {
+  margin: 0%;
+  padding: 5%;
+}
+
+.quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  padding: 10%;
+}

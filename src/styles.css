@@ -9,12 +9,52 @@ body {
   background-color: #000;
   display: flex;
   justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.navBar {
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: flex-end;
+  gap: 5%;
+  list-style: none;
+  padding: 2%;
+}
+
+.calculator-title {
+  margin: 5%;
+}
+
+.calculator-subtitle {
+  margin: 0%;
+  margin-bottom: 5%;
+}
+
+.calculator-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
 .calculator-grid {
   display: grid;
-  margin: 5%;
   grid-template-columns: repeat(4, 6rem);
   grid-template-rows: minmax(7rem, auto) repeat(5, 6rem);
 }

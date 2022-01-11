@@ -1,10 +1,19 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { render } from 'react-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import App from './App';
+import Home from './components/Home';
+import Quote from './components/Quote';
 
-ReactDOM.render(
+render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/calculator" element={<App />} />
+        <Route path="/quote" element={<Quote />} />
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root'),
 );
