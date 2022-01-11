@@ -10,9 +10,11 @@ const Calculator = () => {
   };
 
   return (
-    <div className="container">
-      <h1 className="calculator-title">Math Magicians</h1>
-      <h2 className="calculator-subtitle">Let&apos;s do some math!</h2>
+    <div className="calculator-container">
+      <div className="title-container">
+        <h1 className="calculator-title">Math Magicians</h1>
+        <h2 className="calculator-subtitle">Let&apos;s do some math!</h2>
+      </div>
       <div className="calculator-grid">
         <div className="output">
           {operand.total}

@@ -32,3 +32,13 @@ h2 {
 p {
   margin: 5%;
 }
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+  transition: 300ms;
+}
+
+.nav-link:hover {
+  color: #f4913e;
+}
