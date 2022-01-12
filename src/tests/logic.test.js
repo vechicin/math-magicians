@@ -42,3 +42,18 @@ describe('testing calculate', () => {
     expect(calculate(obj, buttonName).total).toBe('8');
   });
 });
+
+describe('testing operate', () => {
+  test('plus operator', () => {
+    expect(operate(1,1,'+')).toBe('2')
+  })
+  test('plus operator', () => {
+    expect(operate(1,1,'-')).toBe('0')
+  })
+  test('plus operator', () => {
+    expect(operate(1,1,'x')).toBe('1')
+  })
+  test('plus operator', () => {
+    expect(operate(1,1,'÷')).toBe('1')
+  })
+})
