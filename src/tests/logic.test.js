@@ -8,9 +8,9 @@ describe('testing calculate', () => {
       total: '321',
       next: '9',
       operation: buttonName,
-    }
+    };
     expect(calculate(obj, buttonName).total).toBe('330');
-  })
+  });
 
   test('testing substractions', () => {
     const buttonName = '-';
@@ -20,7 +20,7 @@ describe('testing calculate', () => {
       operation: buttonName,
     };
     expect(calculate(obj, buttonName).total).toBe('441');
-  })
+  });
 
   test('testing multiplications', () => {
     const buttonName = 'x';
@@ -30,7 +30,7 @@ describe('testing calculate', () => {
       operation: buttonName,
     };
     expect(calculate(obj, buttonName).total).toBe('256');
-  })
+  });
 
   test('testing divisions', () => {
     const buttonName = '÷';
@@ -40,5 +40,5 @@ describe('testing calculate', () => {
       operation: buttonName,
     };
     expect(calculate(obj, buttonName).total).toBe('8');
-  })
+  });
 });
