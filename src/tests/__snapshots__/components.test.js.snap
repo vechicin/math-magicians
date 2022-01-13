@@ -1,0 +1,167 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test components Calculator tests 1`] = `
+<div
+  className="calculator-container"
+>
+  <div
+    className="title-container"
+  >
+    <h1
+      className="calculator-title"
+    >
+      Math Magicians
+    </h1>
+    <h2
+      className="calculator-subtitle"
+    >
+      Let's do some math!
+    </h2>
+  </div>
+  <div
+    className="calculator-grid"
+  >
+    <div
+      className="output"
+    >
+       
+       
+    </div>
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      AC
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      +/-
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      %
+    </button>
+    <button
+      className="operator"
+      onClick={[Function]}
+      type="button"
+    >
+      ÷
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      7
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      8
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      9
+    </button>
+    <button
+      className="operator"
+      onClick={[Function]}
+      type="button"
+    >
+      x
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      4
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      5
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      6
+    </button>
+    <button
+      className="operator"
+      onClick={[Function]}
+      type="button"
+    >
+      -
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      1
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      2
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      3
+    </button>
+    <button
+      className="operator"
+      onClick={[Function]}
+      type="button"
+    >
+      +
+    </button>
+    <button
+      className="occupy-two"
+      onClick={[Function]}
+      type="button"
+    >
+      0
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      .
+    </button>
+    <button
+      className="operator"
+      onClick={[Function]}
+      type="button"
+    >
+      =
+    </button>
+  </div>
+</div>
+`;
+
+exports[`test components Navbar tests 1`] = `
+<div>
+  <h1
+    className="quote-title"
+  >
+    Math Magicians
+  </h1>
+  <div
+    className="quote"
+  >
+    Mathematics is not about numbers, equations, computations, or algorithms: it is about understanding. -William Paul Thurston
+  </div>
+</div>
+`;
