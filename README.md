@@ -2,6 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Live Demo
+
+[Netlify Live Demo](https://jolly-haibt-12873d.netlify.app/)
+
+[Heroku Live Demo](https://math-magicians-vechicin.herokuapp.com/)
+
 ## Available Scripts
 
 In the project directory, you can run:
